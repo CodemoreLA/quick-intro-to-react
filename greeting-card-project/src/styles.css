@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive|Herr+Von+Muellerhoff');
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  font-family: 'Cutive', serif;
+}
+.card {
+  background-image: url('../public/images/card-bg.png');
+  background-repeat: no-repeat;
+  width: 499px;
+  height: 527px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+}
+.greeting {
+  width: 310px;
+  word-wrap: break-word;
+  line-height: 40px;
+}
+.from {
+  width: 310px;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  color: #999;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+}
